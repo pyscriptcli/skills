@@ -2,19 +2,29 @@
 
 Small reusable agent skills.
 
-## Skills
+## Layout
 
-- `benchmark-comparison` - asks for criteria, priorities, bottom line, and recommendation before making a comparison document.
-- `repository-structure` - gives a clean frontend/backend structure and naming rules.
-
-## Repository structure
+Standalone skill: root folder.
+Related skills: one group folder.
 
 ```text
-skills/
-├── benchmark-comparison/
+benchmark-comparison/
+├── SKILL.md
+caveman/
+├── SKILL.md
+grill-me/
+├── normal/
 │   └── SKILL.md
-└── repository-structure/
+└── no-idea/
     └── SKILL.md
+repository-structure/
+└── SKILL.md
 ```
 
-Each skill lives in its own folder. Add new skills as `skills/<skill-name>/SKILL.md`.
+## Skills
+
+- `benchmark-comparison` - compare tools, vendors, or products.
+- `caveman` - make work short, plain, and direct.
+- `grill-me/normal` - stress-test an existing concept and make a build plan.
+- `grill-me/no-idea` - turn a vague thought into concept and plan.
+- `repository-structure` - make clean frontend/backend project structure.
