@@ -13,8 +13,7 @@ benchmark-comparison/
 caveman/
 ├── SKILL.md
 grill-me/
-├── normal/
-│   └── SKILL.md
+├── SKILL.md
 └── no-idea/
     └── SKILL.md
 repository-structure/
@@ -25,6 +24,6 @@ repository-structure/
 
 - `benchmark-comparison` - compare tools, vendors, or products.
 - `caveman` - make work short, plain, and direct.
-- `grill-me/normal` - stress-test an existing concept and make a build plan.
+- `grill-me` - stress-test an existing concept and make a build plan.
 - `grill-me/no-idea` - turn a vague thought into concept and plan.
 - `repository-structure` - make clean frontend/backend project structure.
