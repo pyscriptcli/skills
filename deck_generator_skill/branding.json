@@ -1,0 +1,36 @@
+{
+  "company_name": "PRIME Philippines",
+  "tagline": "Leading Real Estate Consultancy and Advisory Firm",
+  "colors": {
+    "navy_primary": "#021A3D",
+    "navy_secondary": "#003464",
+    "navy_dark": "#001F5F",
+    "gold_accent": "#EEBA2B",
+    "gold_secondary": "#C9A84C",
+    "dark_slate": "#272828",
+    "pure_white": "#FFFFFF"
+  },
+  "fonts": {
+    "primary_sans": "Montserrat",
+    "secondary_sans": "Century Gothic",
+    "editorial_serif": "Cormorant Garamond",
+    "caption_sans": "DM Sans"
+  },
+  "default_prepared_by": {
+    "name": "Cedtrix Rena",
+    "title": "Sr. Leasing Advisor",
+    "division": "Retail and Industrial Markets",
+    "company": "PRIME Philippines",
+    "phone": "+63 917 625 3353",
+    "email_primary": "cedtrix.rena@primephilippines.com",
+    "email_secondary": "cedtrixrena.primecorp@gmail.com"
+  },
+  "default_contact_supervisor": {
+    "name": "Sondi Tuazon",
+    "title": "Sr. Head",
+    "division": "Retail and Industrial Markets",
+    "company": "PRIME Philippines",
+    "phone": "+63 917 843 6128",
+    "email": "sondituazon.primecorp@gmail.com"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "proposal_title": "Available Warehouse Properties",
+  "subtitle": "Cavite & Laguna Logistics Corridor",
+  "proposal_header": "LOGISTICS & WAREHOUSE PROPOSAL FOR",
+  "client_name": "Marcus Vance",
+  "client_title": "Supply Chain Director",
+  "client_company": "Global Freight Logistics Philippines Inc.",
+  "prepared_by": {
+    "name": "Cedtrix Rena",
+    "title": "Sr. Leasing Advisor",
+    "division": "Retail and Industrial Markets",
+    "company": "PRIME Philippines",
+    "phone": "+63 917 625 3353",
+    "email_primary": "cedtrix.rena@primephilippines.com"
+  },
+  "contact_supervisor": {
+    "name": "Sondi Tuazon",
+    "title": "Sr. Head",
+    "phone": "+63 917 843 6128",
+    "email": "sondituazon.primecorp@gmail.com"
+  },
+  "include_site_development_plan": false,
+  "include_site_layout": false,
+  "properties": [
+    {
+      "name": "Apex Logistics Center",
+      "location": "Carmona, Cavite",
+      "available_units": [
+        ["Covered Area", "10,500 sqm"],
+        ["Open Yard / Parking", "2,200 sqm"],
+        ["TOTAL LEASABLE AREA", "12,700 sqm"]
+      ],
+      "lease_terms": [
+        ["Rental Rate (Covered)", "Php 380.00/sqm + VAT"],
+        ["Rental Rate (Yard)", "Php 120.00/sqm"],
+        ["CUSA", "Php 35.00/sqm"],
+        ["Rental Escalation", "5% Annually"],
+        ["Min. Lease Term", "5 Years"],
+        ["Advance Rent", "3 Months"],
+        ["Security Deposit", "3 Months"]
+      ],
+      "specifications": [
+        ["Loading Area", "12 Elevated Docks with Dock Levelers"],
+        ["APEX Height", "14.5 meters"],
+        ["Shoulder Height", "12.0 meters"],
+        ["Vehicle Capacity", "40-ft and 45-ft Container Trucks"],
+        ["Floor Load Capacity", "5 tons/sqm"],
+        ["Electrical Load", "Three-Phase 400 KVA Dedicated Transformer"],
+        ["Fire Protection", "ESFR Sprinklers & Central FDAS"],
+        ["Ideal Use", "FMCG Distribution, 3PL Logistics, Cold Chain Conversion"]
+      ],
+      "accessibility": [
+        ["National Highway", "400 meters"],
+        ["SLEX – Carmona Exit", "1.8 km"],
+        ["CALAX Interchange", "3.2 km"],
+        ["Manila South Harbor", "38.5 km"]
+      ]
+    },
+    {
+      "name": "Metro South Industrial Park",
+      "location": "Santa Rosa, Laguna",
+      "available_units": [
+        ["Warehouse Bay 1", "4,800 sqm"],
+        ["Warehouse Bay 2", "5,200 sqm"],
+        ["Mezzanine Office", "650 sqm"],
+        ["TOTAL LEASABLE AREA", "10,650 sqm"]
+      ],
+      "lease_terms": [
+        ["Rental Rate (Covered)", "Php 360.00/sqm + VAT"],
+        ["CUSA", "Php 30.00/sqm"],
+        ["Rental Escalation", "5% Yearly"],
+        ["Min. Lease", "3 Years"],
+        ["Advance Rent", "3 Months"],
+        ["Security Deposit", "3 Months"]
+      ],
+      "specifications": [
+        ["Loading Area", "8 Cross-Dock Bays with Canopy"],
+        ["APEX Height", "13.0 meters"],
+        ["Shoulder Height", "10.5 meters"],
+        ["Vehicle Capacity", "Up to 40 ft. Container Chassis"],
+        ["Security", "24/7 Guarded Gated Industrial Complex"],
+        ["Electrical Load", "High-Voltage Three Phase Ready"],
+        ["Ideal Use", "E-Commerce Fulfillment, Electronics Assembly, Warehousing"]
+      ],
+      "accessibility": [
+        ["Sta. Rosa - Tagaytay Road", "600 m"],
+        ["SLEX – Santa Rosa Exit", "2.5 km"],
+        ["SLEX – Eton Exit", "4.1 km"],
+        ["Batangas International Port", "62.0 km"]
+      ]
+    }
+  ]
+}

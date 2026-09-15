@@ -1,0 +1,254 @@
+{
+  "proposal_title": "Available Warehouse Properties",
+  "subtitle": "Strategic Logistics Locations",
+  "proposal_header": "WAREHOUSE FACILITIES PROPOSAL FOR",
+  "client_name": "Valued Client",
+  "client_title": "Logistics & Supply Chain Management",
+  "client_company": "Flash Express Logistics",
+  "prepared_by": {
+    "name": "Cedtrix Rena",
+    "title": "Sr. Leasing Advisor",
+    "division": "Retail and Industrial Markets",
+    "company": "PRIME Philippines",
+    "phone": "+63 917 625 3353",
+    "email_primary": "cedtrix.rena@primephilippines.com"
+  },
+  "contact_supervisor": {
+    "name": "Sondi Tuazon",
+    "title": "Sr. Head",
+    "phone": "+63 917 843 6128",
+    "email": "sondituazon.primecorp@gmail.com"
+  },
+  "include_site_development_plan": false,
+  "include_site_layout": false,
+  "properties": [
+    {
+      "name": "comparison proposal for their South Luzon hub expansion.",
+      "location": "Laguna, Philippines",
+      "available_units": [
+        [
+          "Covered Area",
+          "5,000 sqm"
+        ],
+        [
+          "Open Yard",
+          "1,000 sqm"
+        ],
+        [
+          "TOTAL LEASABLE AREA",
+          "5,000 sqm"
+        ]
+      ],
+      "lease_terms": [
+        [
+          "Rental Rate (Covered)",
+          "Php 350.00/sqm + VAT"
+        ],
+        [
+          "Rental Escalation",
+          "5% Yearly"
+        ],
+        [
+          "Min. Lease Term",
+          "3 Years"
+        ],
+        [
+          "Advance Rent",
+          "3 Months"
+        ],
+        [
+          "Security Deposit",
+          "3 Months"
+        ]
+      ],
+      "specifications": [
+        [
+          "Loading Area",
+          "Elevated loading bays"
+        ],
+        [
+          "APEX Height",
+          "12-14 meters"
+        ],
+        [
+          "Vehicle Capacity",
+          "Up to 40 ft. trucks"
+        ],
+        [
+          "Electrical Load",
+          "Three Phase Ready"
+        ],
+        [
+          "Ideal Use",
+          "Storage / Logistics / Distribution"
+        ]
+      ],
+      "accessibility": [
+        [
+          "National Highway",
+          "1.0 km"
+        ],
+        [
+          "Expressway Exit",
+          "3.5 km"
+        ],
+        [
+          "Manila Port",
+          "45 km"
+        ]
+      ]
+    },
+    {
+      "name": "1:",
+      "location": "Cabuyao, Laguna",
+      "available_units": [
+        [
+          "Covered Area",
+          "is 8,200 sqm, plus 1,500 sqm concrete open yard for truck staging. Total is 9,700 sqm."
+        ],
+        [
+          "Open Yard",
+          "1,000 sqm"
+        ],
+        [
+          "TOTAL LEASABLE AREA",
+          "is 8,200 sqm, plus 1,500 sqm concrete open yard for truck staging. Total is 9,700 sqm."
+        ]
+      ],
+      "lease_terms": [
+        [
+          "Rental Rate (Covered)",
+          "375/sqm for covered, 100/sqm for open yard. Plus VAT."
+        ],
+        [
+          "Rental Escalation",
+          "5% Yearly"
+        ],
+        [
+          "Min. Lease Term",
+          "3 Years"
+        ],
+        [
+          "Advance Rent",
+          "3 Months"
+        ],
+        [
+          "Security Deposit",
+          "3 Months"
+        ]
+      ],
+      "specifications": [
+        [
+          "Loading Area",
+          "Elevated loading bays"
+        ],
+        [
+          "APEX Height",
+          "12-14 meters"
+        ],
+        [
+          "Vehicle Capacity",
+          "Up to 40 ft. trucks"
+        ],
+        [
+          "Electrical Load",
+          "Three Phase Ready"
+        ],
+        [
+          "Ideal Use",
+          "Storage / Logistics / Distribution"
+        ]
+      ],
+      "accessibility": [
+        [
+          "National Highway",
+          "1.0 km"
+        ],
+        [
+          "Expressway Exit",
+          "3.5 km"
+        ],
+        [
+          "Manila Port",
+          "45 km"
+        ]
+      ]
+    },
+    {
+      "name": "2:",
+      "location": "Dasmarinas, Cavite",
+      "available_units": [
+        [
+          "Covered Area",
+          "6,400 sqm. Open area is 800 sqm. Total leasable: 7,200 sqm."
+        ],
+        [
+          "Open Yard",
+          "1,000 sqm"
+        ],
+        [
+          "TOTAL LEASABLE AREA",
+          "6,400 sqm. Open area is 800 sqm. Total leasable: 7,200 sqm."
+        ]
+      ],
+      "lease_terms": [
+        [
+          "Rental Rate (Covered)",
+          "is 350/sqm + VAT. Escalation 5% yearly. 3 years lease, 3 mos adv, 3 mos dep."
+        ],
+        [
+          "Rental Escalation",
+          "5% Yearly"
+        ],
+        [
+          "Min. Lease Term",
+          "3 Years"
+        ],
+        [
+          "Advance Rent",
+          "3 Months"
+        ],
+        [
+          "Security Deposit",
+          "3 Months"
+        ]
+      ],
+      "specifications": [
+        [
+          "Loading Area",
+          "Elevated loading bays"
+        ],
+        [
+          "APEX Height",
+          "12-14 meters"
+        ],
+        [
+          "Vehicle Capacity",
+          "Up to 40 ft. trucks"
+        ],
+        [
+          "Electrical Load",
+          "Three Phase Ready"
+        ],
+        [
+          "Ideal Use",
+          "Storage / Logistics / Distribution"
+        ]
+      ],
+      "accessibility": [
+        [
+          "National Highway",
+          "1.0 km"
+        ],
+        [
+          "Expressway Exit",
+          "3.5 km"
+        ],
+        [
+          "Manila Port",
+          "45 km"
+        ]
+      ]
+    }
+  ]
+}
