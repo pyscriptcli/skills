@@ -56,3 +56,7 @@ Next task: [one action]
 - Direct, useful, no fluff.
 - Ask sharp questions. Not many questions.
 - Outcome is a real implementation plan.
+
+## Related skill
+
+For a persuasive pitch deck, use `prime-pitch-codex`. It applies this concept stress-test to the audience, decision, objection, proof, economics, voice, and next action, then builds and verifies the deck. Keep this skill's general product and implementation focus for non-deck concepts.

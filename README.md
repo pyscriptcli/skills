@@ -22,6 +22,15 @@ prime-design/
 ├── SKILL.md
 └── references/
     └── project-echo-ui.md
+prime-pitch-codex/
+├── SKILL.md
+├── agents/
+│   └── openai.yaml
+└── references/
+    ├── anti-slop.md
+    ├── grill-me.md
+    ├── prime-brand.md
+    └── voice-and-jargon.md
 deck_generator_skill/
 ├── SKILL.md
 ├── branding.json
@@ -45,6 +54,7 @@ matt-pocock/
 - `grill-me/no-idea` - turn a vague thought into concept and plan.
 - `repository-structure` - make clean frontend/backend project structure.
 - `prime-design` - apply the PRIME Philippines Project Echo UI system.
+- `prime-pitch-codex` - grill, shape, and build persuasive PRIME-branded pitch decks with clear voice, terminology, and evidence standards.
 - `deck_generator_skill` - create branded, editable PRIME Philippines commercial & warehouse proposal decks from unstructured notes, screenshots, or existing presentations.
 - `matt-pocock/skills` - attributed mirror of Matt Pocock's MIT-licensed agent skill collection.
 
