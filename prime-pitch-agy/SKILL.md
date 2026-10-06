@@ -54,13 +54,15 @@ Before writing slides, interrogate the concept and user assumptions **one questi
 | **Brokerage Economics** | Commission Split, Break-Even Yield, Advisor Hourly Rate, Hours Reclaimed, Deal Velocity, Carrying Cost, Pipeline Conversion, Milestone Escrow | *Empower, Supercharge, Unlock Potential, Transformative Journey, Next-Gen, Revolutionize* |
 | **Procurement & Contracts** | Master Service Agreement (MSA), Vetting Due Diligence, SLA, Scope Handoff, Default Liability, Credit Risk, Escrow Milestone Gate, Tax Clearance | *Magic bullet, Thought leadership, North star, Deep dive, Telemetry* |
 
-#### The 6 Alignment Questions:
+#### The 7 Alignment Questions:
 1. **Audience:** Who is in the room and what is their practical hesitation?
 2. **Deal Economics:** What is the fee split, TPV basis, payment schedule, and who carries default risk?
 3. **Time & Capacity:** How many hours does the team lose doing this manually, and what does that cost in lost deals?
 4. **3 Core Outcomes:** Exactly three practical results (e.g., specialized contractor access, advisor hours saved, higher net commission).
 5. **The Hard Objection:** What is the main argument against this (e.g., *"Why pay 20% if I can do it myself?"*), and what is the direct, no-bluff answer?
 6. **Slide Budget:** Enforce an 8- to 10-slide limit. Pacing: Blue title/conclusion anchors with Warm White analytical core.
+7. **Orientation (Landscape vs. Portrait):** Ask the user: *"Do you want a Landscape (16:9 widescreen presentation) or Portrait (vertical dossier / executive report) orientation?"* Never assume; align on orientation before generating viewport dimensions and print stylesheets.
+
 
 #### The "Never Assume — Re-Grill" Protocol (Continuous Grill-Me)
 **Assumption is fatal in institutional advisory.** When executing requests, the agent must never invent or guess missing inputs:
@@ -141,28 +143,31 @@ When illustrating product value, do not rely on bullet points alone. Code crisp 
 ### Step 5: Twin-Engine Publishing (HTML + 1-to-1 PDF Clone)
 Generate both deliverables to guarantee immediate interactive viewing and board-ready print exports:
 1. **Interactive HTML:**
-   - 16:9 fixed ratio container (`1200x675` viewport preview).
+   - **Landscape:** 16:9 fixed ratio container (`1200x675` viewport preview).
+   - **Portrait:** Vertical ratio container (`800x1130` or `8.5x11` letter preview).
    - Keyboard listener (`ArrowRight`, `ArrowLeft`, `Space`) and button controls.
    - Live slide counter (`SLIDE X / Y`).
 2. **1-to-1 PDF Compilation:**
    - Run Microsoft Edge or Chrome in headless mode with `--print-to-pdf` and `--no-pdf-header-footer`.
-   - Apply print CSS that guarantees multi-page breakout:
+   - Apply print CSS that matches the user-selected orientation:
+     - **Landscape:** `@page { size: 16in 9in; margin: 0; }` with `.slide { width: 16in; height: 9in; }`
+     - **Portrait:** `@page { size: 9in 16in; margin: 0; }` (or `8.5in 11in`) with `.slide { width: 9in; height: 16in; }`
      ```css
-     @page { size: 16in 9in; margin: 0; }
+     @page { size: 16in 9in; margin: 0; } /* or 9in 16in for portrait */
      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
      @media print {
        html, body {
          background: transparent !important;
          margin: 0 !important;
          padding: 0 !important;
-         width: 16in !important;
+         width: 16in !important; /* or 9in for portrait */
          height: auto !important;
          overflow: visible !important;
        }
        .controls, .nav-controls, .keyboard-hint { display: none !important; }
        .deck-viewport { padding: 0 !important; margin: 0 !important; height: auto !important; display: block !important; }
        .deck-container {
-         width: 16in !important;
+         width: 16in !important; /* or 9in for portrait */
          height: auto !important;
          border: none !important;
          box-shadow: none !important;
@@ -175,8 +180,8 @@ Generate both deliverables to guarantee immediate interactive viewing and board-
          position: relative !important;
          top: auto !important;
          left: auto !important;
-         width: 16in !important;
-         height: 9in !important;
+         width: 16in !important; /* or 9in for portrait */
+         height: 9in !important; /* or 16in for portrait */
          min-height: 9in !important;
          max-height: 9in !important;
          opacity: 1 !important;
@@ -216,6 +221,7 @@ Generate both deliverables to guarantee immediate interactive viewing and board-
 ## Quality Checklist Before Output
 
 - [ ] Was the concept grilled one question at a time before generating the deck?
+- [ ] Did I explicitly ask the user whether they want Landscape or Portrait orientation?
 - [ ] If any requested assets or data points were missing, did I pause and re-grill the user via ask_question instead of assuming or synthesizing them?
 - [ ] Was Anti-Slop actively enforced during creation (zero fluff, zero decorative clutter, zero corporate buzzwords)?
 - [ ] Is total slide copy strictly under 75 words per slide (excluding table numbers)?
@@ -229,5 +235,6 @@ Generate both deliverables to guarantee immediate interactive viewing and board-
 - [ ] Does the generated PDF have the exact matching page count, 16:9 aspect ratio, and full-bleed backgrounds?
 - [ ] Does the companion Markdown file match the slide structure?
 - [ ] Is the agent's chat response concise (under 150 words) with clickable file links?
+
 
 
