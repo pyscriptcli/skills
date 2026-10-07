@@ -56,6 +56,7 @@ matt-pocock/
 - `caveman` - make work short, plain, and direct.
 - `grill-me` - stress-test an existing concept and make a build plan.
 - `grill-me/no-idea` - turn a vague thought into concept and plan.
+- `new-project` - translate business workflows into developer-ready requirements, backlog, traceability, and stack recommendations.
 - `prime-pitch-agy` - all-in-one executive pitch deck studio (grill-me + anti-slop + PRIME brand + 16:9 HTML & 1-to-1 PDF pipeline).
 - `repository-structure` - make clean frontend/backend project structure.
 - `prime-design` - apply the PRIME Philippines Project Echo UI system.
