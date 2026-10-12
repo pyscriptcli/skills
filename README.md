@@ -10,6 +10,8 @@ Related skills: one group folder.
 ```text
 benchmark-comparison/
 ├── SKILL.md
+best-practices/
+└── SKILL.md
 caveman/
 ├── SKILL.md
 grill-me/
@@ -53,6 +55,7 @@ matt-pocock/
 ## Skills
 
 - `benchmark-comparison` - compare tools, vendors, or products.
+- `best-practices` - search authoritative standards first across all disciplines, analyze trade-offs, and apply with antislop hygiene.
 - `caveman` - make work short, plain, and direct.
 - `grill-me` - stress-test an existing concept and make a build plan.
 - `grill-me/no-idea` - turn a vague thought into concept and plan.
