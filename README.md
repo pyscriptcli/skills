@@ -43,6 +43,8 @@ deck_generator_skill/
 ├── templates/
 ├── scripts/
 └── examples/
+ui-consistency/
+└── SKILL.md
 matt-pocock/
 ├── LICENSE
 └── skills/
@@ -65,6 +67,7 @@ matt-pocock/
 - `prime-design` - apply the PRIME Philippines Project Echo UI system.
 - `prime-pitch-codex` - grill, shape, and build persuasive PRIME-branded pitch decks with clear voice, terminology, and evidence standards.
 - `deck_generator_skill` - create branded, editable PRIME Philippines commercial & warehouse proposal decks from unstructured notes, screenshots, or existing presentations.
+- `ui-consistency` - audit codebase design tokens, guard visual consistency across new additions, and enforce UI/UX standards.
 - `matt-pocock/skills` - attributed mirror of Matt Pocock's MIT-licensed agent skill collection.
 
 ## Third-party skills
