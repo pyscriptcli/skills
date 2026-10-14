@@ -1,0 +1,22 @@
+{
+  "name": "agent-skills-antislop",
+  "interface": {
+    "displayName": "Agent Skills with Antislop"
+  },
+  "plugins": [
+    {
+      "name": "agent-skills-antislop",
+      "version": "1.0.0",
+      "description": "Engineering workflows for Codex and Antigravity with the shared antislop quality standard.",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
