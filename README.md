@@ -14,6 +14,8 @@ best-practices/
 └── SKILL.md
 caveman/
 ├── SKILL.md
+clickup-learning-coach/
+└── SKILL.md
 grill-me/
 ├── SKILL.md
 └── no-idea/
@@ -59,6 +61,7 @@ matt-pocock/
 - `benchmark-comparison` - compare tools, vendors, or products.
 - `best-practices` - search authoritative standards first across all disciplines, analyze trade-offs, and apply with antislop hygiene.
 - `caveman` - make work short, plain, and direct.
+- `clickup-learning-coach` - capture ClickUp course learning, maintain a local study plan, and run source-grounded certification practice quizzes.
 - `grill-me` - stress-test an existing concept and make a build plan.
 - `grill-me/no-idea` - turn a vague thought into concept and plan.
 - `new-project` - translate business workflows into developer-ready requirements, backlog, traceability, and stack recommendations.
